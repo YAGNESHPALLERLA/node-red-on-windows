@@ -37,5 +37,5 @@ Before installing Node-RED, ensure that you have the following software installe
 
 ## Starting Node-RED
 To start Node-RED, run the following command in your Command Prompt:
-   ```bash
+  ```bash
    node-red
