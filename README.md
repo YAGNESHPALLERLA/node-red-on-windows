@@ -23,6 +23,19 @@ Before installing Node-RED, ensure that you have the following software installe
 1. Open a Command Prompt window (you can do this by pressing `Win + R`, typing `cmd`, and hitting `Enter`).
 
 2. Verify that Node.js and npm are installed correctly by running:
+   You should see version numbers for both commands.
    ```bash
    node -v
    npm -v
+3. Install Node-RED globally using npm:
+    ```bash
+    npm install -g --unsafe-perm node-red
+    
+4. After installation, verify Node-RED is installed by checking the version:
+   ```bash
+   node-red -v
+
+## Starting Node-RED
+To start Node-RED, run the following command in your Command Prompt:
+   ```bash
+   node-red
